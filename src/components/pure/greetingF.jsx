@@ -6,11 +6,16 @@ const Greetingf = (props) => {
 
     // Breve introducción a useState
     // const [variable, método para actualizarlo] = useState(valor inicial)
-    const [age, setage] = useState(29);
+    const [age, setage] = useState(0);
 
     const birthday = () => {
         // actualizamos el State
-        setage(age + 1);
+           setage(age +1)
+         
+    }
+
+    const menosBirthday = () => {
+        setage(age -1 )
     }
 
     return (
@@ -24,6 +29,9 @@ const Greetingf = (props) => {
             <div>
                 <button onClick={birthday}>
                     Cumplir años
+                </button>
+                <button onClick={menosBirthday}>
+                    quitar años
                 </button>
             </div>
         </div>

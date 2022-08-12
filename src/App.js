@@ -24,9 +24,9 @@ function App() {
       {/* <header className="App-header"> */}
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
         {/* Componente propio Greeting.jsx */}
-        {/* <Greeting name={"Martín"}></Greeting> */}
+        {/* <Greeting name={"alejandro"}></Greeting> */}
         {/* Componente de ejemplo funcional */}
-        {/* <Greetingf name="Martín"></Greetingf> */}
+        {/* <Greetingf name="alejandro"></Greetingf> */}
         {/* Componente de Listado de Tareas */}
         {/* <TaskListComponent></TaskListComponent> */}
         {/* Ejemplos de uso de HOOKS */}
@@ -34,12 +34,12 @@ function App() {
         {/* <Ejemplo2></Ejemplo2> */}
         {/* <MiComponenteConContexto></MiComponenteConContexto> */}
         {/* Todo loq ue hay aquí, es tratado como props.children */}
-        {/* <Ejemplo4 nombre="Martín">
+        {/* <Ejemplo4 nombre="alejandro">
           <h3>
             Contenido del props.children
           </h3>
         </Ejemplo4> */}
-        {/* <Greetingstyled name="Martín"></Greetingstyled> */}
+        {/* <Greetingstyled name="alejandro"></Greetingstyled> */}
       {/* </header> */}
       {/* Gestión de eventos */}
       {/* <Father></Father> */}
@@ -56,7 +56,7 @@ function App() {
       {/* <Observableexample></Observableexample> */}
       {/* <Fetchexample></Fetchexample> */}
       {/* <Axiosexample></Axiosexample> */}
-      <Axioscrudexample></Axioscrudexample>
+      {/* <Axioscrudexample></Axioscrudexample> */}
 
       {/* PROYECTO FINAL */}
       {/* <TaskListComponent></TaskListComponent> */}
